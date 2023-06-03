@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    body {
+        @apply font-[Poppins] bg-gray-100;
+    }
+
+    li {
+        @apply cursor-pointer
+    }
+}
+
+.projects-div{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.projects-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, .8),
+        hsla(242, 71%, 64%, 0.8)
+    )!important;
+}
