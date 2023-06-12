@@ -8,7 +8,7 @@ const projects = [
         id: 1,
     title: 'SACCOM',
     category: 'React.js Project',
-    link: 'https://github.com/Samuel-Makinde/SACCOM-FRONTEND-REACT',
+    link: 'https://github.com/Samuel-Makinde/SACCOM-FRONTEND-PROJECT',
     img: Apartment,
     desc: `This is an ongoing project that aims to solve the apartment search problem for students and visitors within the school facility. `,
     },
