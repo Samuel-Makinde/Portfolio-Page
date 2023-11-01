@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="grid grid-col justify-center items-center py-[50px] text-white ">
             <ul className="flex">
                 <li className="mr-4">
-                    <a href="https://docs.google.com/document/d/1FeMAG8hdHNMr5dlPXZEqiBIzAzfJapuV/edit?usp=sharing&ouid=111628017611831875781&rtpof=true&sd=true"  target='_blank' rel='noreferrer' className='flex justify-between items-center w-full text-gray-200 px-[5px]' >
+                    <a href="https://drive.google.com/file/d/1iLM5clF2SfaNmpVCYXgm0iWpEpfEmlB4/view?usp=sharing"  target='_blank' rel='noreferrer' className='flex justify-between items-center w-full text-gray-200 px-[5px]' >
            <BsFillPersonLinesFill size={32}/>
         </a>
                 </li>

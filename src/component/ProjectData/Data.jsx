@@ -1,7 +1,7 @@
 import Apartment from "./images/real-estate-3297625_640.jpg";
-import CardImage from "./images/new-card.png";
-import MenStore from "./images/shopping.jpg";
-import Portfolio from "./images/portfolio.png";
+import easeRead from "../../assets/easereads poster design.jpg";
+import liight from "../../assets/new-liight.png";
+import wonderkid from "../../assets/wonder-kid.png";
 
 const projects = [
   {
@@ -9,36 +9,46 @@ const projects = [
     title: "SACCOM",
     category: "React.js Project",
     link: "https://github.com/Samuel-Makinde/SACCOM-FRONTEND-PROJECT",
-    Demo: "https://saccomproject.netlify.app/",
+    Demo: "http://saccom.xyz",
     img: Apartment,
-    desc: `This is an ongoing project that aims to solve the apartment search problem for students and visitors within the school facility. `,
+    desc: `This projects tend to solve the diffulties face by students and visitors when trying to getting apartment and hostels around universities area.
+ `,
   },
   {
     id: 2,
-    title: "Atm Card",
-    category: "Javascript Project",
-    link: "https://github.com/Samuel-Makinde/interactive-card-details-form",
-    Demo: "https://serene-pika-c7c5b1.netlify.app/",
-    img: CardImage,
-    desc: `This creates a page to fill in card details which show on the card at the same time and also show a thank you page after completion. `,
+    title: "EaseReads",
+    category: "Full-stack Project",
+    link: "https://github.com/Samuel-Makinde/JUPEP-SITE",
+    Demo: "https://easereads.com/",
+    img: easeRead,
+    desc: `This projects allows students to read there textbooks online, anywhere and any anyplace. `,
   },
   {
     id: 3,
-    title: "Men store",
+    title: "EaseReads",
+    category: "Node.js Project",
+    link: "https://github.com/Samuel-Makinde/JUPEB-SITE-BACKEND",
+    img: easeRead,
+    desc: `This project build the backend infrastructure for easereads`,
+  },
+   {
+    id: 4,
+    title: "Liight",
     category: "React.js Project",
     link: "https://github.com/Samuel-Makinde/e-commerce-site",
     Demo: "https://6476f6bcd18d7b720bc75c5f--genuine-churros-ac9b34.netlify.app/",
-    img: MenStore,
-    desc: `Men's Product page that includes a cart page to increase or remove a product.`,
+    img: liight,
+    desc: `This project allow user to setup meter, pay for electricity and apply for liight loan`,
   },
   {
-    id: 4,
-    title: "Portfolio",
-    category: "React.js Project",
+    id: 5,
+    title: "Wonder-Kid",
+    category: "Full-Stack Project",
     link: "https://github.com/Samuel-Makinde/SACCOM-FRONTEND-REACT",
-    img: Portfolio,
-    desc: `Same as the current site.`,
+    img: wonderkid,
+    desc: `This project teach programming language to kid.`,
   },
+ 
 ];
 
 export default projects;
