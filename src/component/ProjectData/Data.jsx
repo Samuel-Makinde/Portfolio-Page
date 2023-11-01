@@ -36,7 +36,7 @@ const projects = [
     title: "Liight",
     category: "React.js Project",
     link: "https://github.com/Samuel-Makinde/e-commerce-site",
-    Demo: "https://6476f6bcd18d7b720bc75c5f--genuine-churros-ac9b34.netlify.app/",
+    Demo: "https://liight.com.ng/",
     img: liight,
     desc: `This project allow user to setup meter, pay for electricity and apply for liight loan`,
   },
@@ -45,10 +45,10 @@ const projects = [
     title: "Wonder-Kid",
     category: "Full-Stack Project",
     link: "https://github.com/Samuel-Makinde/SACCOM-FRONTEND-REACT",
+    Demo: "https://wonderkid.live/",
     img: wonderkid,
     desc: `This project teach programming language to kid.`,
   },
- 
 ];
 
 export default projects;
