@@ -1,25 +1,34 @@
-import './index.css'
-import Navbar from './component/Navbar';
-import Home from './component/Home';
-import About from './component/About';
-import Skills from './component/Skills';
-import Projects from './component/Projects';
-import Contacts from './component/Contacts';
-import { Footer } from './component/Footer';
+import './index.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Capabilities from './components/Capabilities';
+import Experience from './components/Experience';
+import Leadership from './components/Leadership';
+import Education from './components/Education';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
-  
   return (
-    <div>
+    <div className="min-h-screen">
       <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contacts />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Capabilities />
+        <Experience />
+        <Leadership />
+        <Education />
+        <Contact />
+      </main>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
