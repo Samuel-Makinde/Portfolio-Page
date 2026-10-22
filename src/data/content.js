@@ -30,7 +30,7 @@ export const profile = {
 export const cvDocuments = [
   {
     id: 'master',
-    label: 'General / Master CV',
+    label: 'Full-Stack Developer CV',
     detail: 'Default for full-stack and general roles',
     href: 'https://drive.google.com/file/d/1Lx8tB8aFlDmIT4cxP_TyhzZHq-J_bAzT/view?usp=sharing',
   },
