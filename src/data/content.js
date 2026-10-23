@@ -38,7 +38,7 @@ export const cvDocuments = [
     id: 'frontend',
     label: 'Frontend Engineer CV',
     detail: 'For frontend-focused roles',
-    href: '',
+    href: 'https://drive.google.com/file/d/1WW-dKu7CYWq_engvFrzKscCVzdF_roR0/view?usp=sharing',
   },
   {
     id: 'backend',
